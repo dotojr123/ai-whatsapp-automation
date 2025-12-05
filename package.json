@@ -1,7 +1,29 @@
 {
-  "name": "gemini-vox",
-  "private": true,
-  "version": "0.0.0",
+  "name": "ai-whatsapp-voice-automation",
+  "version": "1.0.0",
+  "description": "Sistema completo de Text-to-Speech com Google Gemini AI integrado com WhatsApp",
+  "author": "Art na Web <artnaweb2022@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dotojr123/ai-whatsapp-automation.git"
+  },
+  "keywords": [
+    "ai",
+    "tts",
+    "text-to-speech",
+    "whatsapp",
+    "automation",
+    "gemini",
+    "google-ai",
+    "n8n",
+    "evolution-api",
+    "voice-automation"
+  ],
+  "homepage": "https://github.com/dotojr123/ai-whatsapp-automation#readme",
+  "bugs": {
+    "url": "https://github.com/dotojr123/ai-whatsapp-automation/issues"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
