@@ -1,3 +1,17 @@
+/**
+ * AI WhatsApp Voice Automation - Backend Server
+ *
+ * Express server que integra com Google Gemini AI para geração
+ * de áudio Text-to-Speech de alta qualidade.
+ *
+ * Endpoints:
+ * - POST /api/tts - Geração de áudio TTS
+ * - POST /api/generate - Compatível com n8n workflows
+ * - GET /health - Status do servidor
+ *
+ * @author Art na Web
+ * @license MIT
+ */
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
